@@ -90,7 +90,7 @@ def main():
 
                 # Calling the function and unpacking the 3 returned values
                 emi_answer = emiformula(price, rate, months)
-                print(f"The Loan EMI = \u20B9{emi_answer:.2f}")
+                print(f"The Loan EMI = R{emi_answer:.2f}")
             
             elif option == 2: 
                 cont = False    # Boolean flag to end the outer loop
